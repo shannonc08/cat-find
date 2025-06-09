@@ -1,7 +1,10 @@
 let score = 0;
 
-let random_top = 0;
-let random_left = 0;
+let random_top = Math.floor(Math.random() * 461) + 60;
+document.getElementById("cat").style.top = random_top + "px";
+let random_left = Math.floor(Math.random() * 1361);
+document.getElementById("cat").style.left = random_left + "px";
+
 let catfound = false;
 let images_of_cats = ["https://en.scratch-wiki.info/w/images/thumb/ScratchCat-Small.png/200px-ScratchCat-Small.png",
     "cats/cryingcat.png", "cats/bugcat.png", "cats/garfield.png", "cats/hellokitty.png",
