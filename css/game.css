@@ -20,11 +20,13 @@ h1 {
     text-align: center;
 }
 
-
+/* Lines 24 through 26 ensures that position of #score, #test, #distance don't affect position of other elements*/
 .info {
     position: absolute;
 }
 
+/* Lines 29 through 42 set position of the message telling the user their score and
+   distance from cat (#test is there for beta testing, does not appear in actual website)*/
 #score {
     bottom: 10px;
     right: 30px;

@@ -1,3 +1,4 @@
+/* Lines 2 through 8 format all text in the body*/
 body {
     width: 500px;
     text-align: center;
@@ -6,12 +7,14 @@ body {
     font-family: "Balsamiq Sans", sans-serif;
 }
 
+/* Lines 11 through 14 sets dimensions for image that appears on homepage */
 #startgame {
     height: 300px;
     width: 300px;
 }
 
+/* Lines 17 through 19 format the anchor tags */
 a {
     display: block;
-    font-size: 10px;
+    font-size: 12px;
 }
