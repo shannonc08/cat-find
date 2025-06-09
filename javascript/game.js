@@ -7,8 +7,8 @@ document.getElementById("cat").style.left = random_left + "px";
 
 let catfound = false;
 let images_of_cats = ["https://en.scratch-wiki.info/w/images/thumb/ScratchCat-Small.png/200px-ScratchCat-Small.png",
-    "cats/cryingcat.png", "cats/bugcat.png", "cats/garfield.png", "cats/hellokitty.png",
-    "cats/nugget.png", "cats/yellowcat.png"]
+    "cats/cryingcat.png", "cats/bugcat.png", "cats/samscat.png", "cats/garfield.png", "cats/hellokitty.png",
+    "cats/nugget.png", "cats/yellowcat.png", "cats/shrimpcat.png"]
 let counter = 0;
 
 document.querySelector('#cat').addEventListener('click', function() {
@@ -16,13 +16,13 @@ document.querySelector('#cat').addEventListener('click', function() {
     document.querySelector('#score').innerHTML = "You have found " + score + " cats";
     document.getElementById("cat").style.opacity = "1";
     catfound = true;
-    if (counter == 6) {
+    if (counter == 8) {
         counter = 0;
     } else {
         counter = counter + 1;
     }
     setTimeout(function() {
-        document.getElementById("cat").style.opacity = "0";
+        document.getElementById("cat").style.opacity = "0.3";
         random_top_before = Math.floor(Math.random() * 461);
         random_top = random_top_before + 60;
         document.getElementById("cat").style.top = random_top + "px";
