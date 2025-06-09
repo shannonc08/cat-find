@@ -1,0 +1,17 @@
+body {
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    background-color: #e1eafa;
+    font-family: "Balsamiq Sans", sans-serif;
+}
+
+#startgame {
+    height: 300px;
+    width: 300px;
+}
+
+a {
+    display: block;
+    font-size: 10px;
+}

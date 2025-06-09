@@ -1,0 +1,36 @@
+body {
+    background-color: #e1eafa;
+    font-family: "Balsamiq Sans", sans-serif;
+}
+
+#cat {
+    height: 100px;
+    width: 100px;
+    background-repeat: no-repeat;
+    border: transparent;
+    opacity: 0;
+    position: absolute;
+}
+
+h1 {
+    text-align: center;
+}
+
+.info {
+    position: absolute;
+}
+
+#score {
+    bottom: 10px;
+    right: 30px;
+}
+
+#test {
+    bottom: 60px;
+    right: 30px;
+}
+
+#distance {
+    bottom: 35px;
+    right: 30px;
+}
