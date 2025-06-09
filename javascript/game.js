@@ -22,7 +22,7 @@ document.querySelector('#cat').addEventListener('click', function() {
         counter = counter + 1;
     }
     setTimeout(function() {
-        document.getElementById("cat").style.opacity = "0.3";
+        document.getElementById("cat").style.opacity = "0";
         random_top_before = Math.floor(Math.random() * 461);
         random_top = random_top_before + 60;
         document.getElementById("cat").style.top = random_top + "px";
