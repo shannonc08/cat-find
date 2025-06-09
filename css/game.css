@@ -1,8 +1,11 @@
+/* Lines 2 through 5 set background color and font for game.html*/
 body {
     background-color: #e1eafa;
     font-family: "Balsamiq Sans", sans-serif;
 }
 
+/* Lines 9 through 16 set the image  appearance as one cat only & initially invisible,
+   and keeps dimensions constant for the entire rotation of cats */
 #cat {
     height: 100px;
     width: 100px;
@@ -12,9 +15,11 @@ body {
     position: absolute;
 }
 
+/* Lines 19 through 21 centers the title of the website at the top */
 h1 {
     text-align: center;
 }
+
 
 .info {
     position: absolute;
