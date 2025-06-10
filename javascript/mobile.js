@@ -1,3 +1,5 @@
+//game.js and mobile.js have the same code, just with different pixel numbers- see game.js for explanation of mobile.js */
+
 let score = 0;
 
 let random_top = Math.floor(Math.random() * 1361) + 80;
